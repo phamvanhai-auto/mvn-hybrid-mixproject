@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">Orange HRM</th></tr>
+<tr><td><a href="#t0">Run On Chrome</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">34,264</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Orange HRM</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Run On Chrome &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.hrm.employee.Level_16_Live_Coding</td><td><a href="#m0">Employee_01_Add_New_Employees</a></td><td rowspan="1">1634312974911</td><td rowspan="1">16917</td></tr></tbody>
+</table>
+<h2>Run On Chrome</h2><h3 id="m0">com.hrm.employee.Level_16_Live_Coding#Employee_01_Add_New_Employees</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">[INFO ] [2021-10-15 22:49:35,041] 01_Add_New - Step 01: Open 'Employee List' 
+<br><br/>[INFO ] [2021-10-15 22:49:37,987] 01_Add_New - Step 02: Click to 'Add' button 
+<br><br/>[INFO ] [2021-10-15 22:49:39,178] 01_Add_New - Step 03: Input valid info 'FirstName' textbox
+<br><br/>[INFO ] [2021-10-15 22:49:39,423] 01_Add_New - Step 04: Input valid info 'LastName' textbox
+<br><br/>[INFO ] [2021-10-15 22:49:39,645] 01_Add_New - Step 05: Get value of 'Employee ID'
+<br><br/>[INFO ] [2021-10-15 22:49:39,723] 01_Add_New - Step 06: Click to 'Create Login Details' checkbox
+<br><br/>[INFO ] [2021-10-15 22:49:39,908] 01_Add_New - Step 07: Input valid info 'User Name'
+<br><br/>[INFO ] [2021-10-15 22:49:40,125] 01_Add_New - Step 08: Input valid info 'Password'
+<br><br/>[INFO ] [2021-10-15 22:49:40,355] 01_Add_New - Step 09: Input 'Confirm Password'
+<br><br/>[INFO ] [2021-10-15 22:49:40,570] 01_Add_New - Step 10: Select 'Enabled' at 'Status' dropdown
+<br><br/>[INFO ] [2021-10-15 22:49:40,716] 01_Add_New - Step 11: Click to 'Save' button
+<br><br/>[INFO ] [2021-10-15 22:49:40,872] 01_Add_New - Step 12: Back 'Employee List' 
+<br><br/>[INFO ] [2021-10-15 22:49:43,251] 01_Add_New - Step 13: Input valid info to 'Employee Name' textbox 
+<br><br/>[INFO ] [2021-10-15 22:49:49,520] 01_Add_New - Step 14: Click to 'Search' button
+<br><br/>[INFO ] [2021-10-15 22:49:51,525]  -------------------------- PASSED -------------------------- 
+<br><br/>[INFO ] [2021-10-15 22:49:51,536] 01_Add_New - Step 15: Verify Employee Info at Result Table
+<br><br/>[INFO ] [2021-10-15 22:49:51,637]  -------------------------- FAILED -------------------------- 
+<br><br/>[INFO ] [2021-10-15 22:49:51,734]  -------------------------- PASSED -------------------------- 
+<br><br/>[INFO ] [2021-10-15 22:49:51,828]  -------------------------- PASSED -------------------------- 
+<br><br/><br><a target="_blank" href="file:///D:\Selenium-WebDriver-Class22\04-Maven Hydrid Framework\ReportNGScreenShots\Employee_01_Add_New_Employees_15_10_2021_10_49_51.png"><img src="file:///D:\Selenium-WebDriver-Class22\04-Maven Hydrid Framework\ReportNGScreenShots\Employee_01_Add_New_Employees_15_10_2021_10_49_51.png" height='100' width='150'/> </a></br></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [0261] but found [0260]
+	at commons.BaseTest.checkEquals(BaseTest.java:233)
+	at commons.BaseTest.verifyEquals(BaseTest.java:245)
+	at com.hrm.employee.Level_16_Live_Coding.Employee_01_Add_New_Employees(Level_16_Live_Coding.java:202)
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

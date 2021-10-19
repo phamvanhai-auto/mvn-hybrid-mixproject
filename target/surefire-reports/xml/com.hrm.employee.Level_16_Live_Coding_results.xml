@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Run On Chrome"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="21.511">
+  <properties />
+  
+  
+            <testcase name="Employee_01_Add_New_Employees" time="21.511" classname="com.hrm.employee.Level_16_Live_Coding" />
+      
+</testsuite>

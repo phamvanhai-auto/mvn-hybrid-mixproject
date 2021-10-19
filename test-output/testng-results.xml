@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[[INFO ] [2021-10-15 22:49:18,879] ---------- START delete file in folder ----------
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-10-15 22:49:18,882] ---------- END delete file in folder ----------
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-10-15 22:49:18,914] Pre-condition - Step 01: Open browser  chrome with https://opensource-demo.orangehrmlive.com/index.php/dashboard 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-10-15 22:49:29,785] Pre-condition - Step 02: Login to HRM Admin
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-10-15 22:49:35,041] 01_Add_New - Step 01: Open 'Employee List' 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-10-15 22:49:37,987] 01_Add_New - Step 02: Click to 'Add' button 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-10-15 22:49:39,178] 01_Add_New - Step 03: Input valid info 'FirstName' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-10-15 22:49:39,423] 01_Add_New - Step 04: Input valid info 'LastName' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-10-15 22:49:39,645] 01_Add_New - Step 05: Get value of 'Employee ID'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-10-15 22:49:39,723] 01_Add_New - Step 06: Click to 'Create Login Details' checkbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-10-15 22:49:39,908] 01_Add_New - Step 07: Input valid info 'User Name'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-10-15 22:49:40,125] 01_Add_New - Step 08: Input valid info 'Password'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-10-15 22:49:40,355] 01_Add_New - Step 09: Input 'Confirm Password'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-10-15 22:49:40,570] 01_Add_New - Step 10: Select 'Enabled' at 'Status' dropdown
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-10-15 22:49:40,716] 01_Add_New - Step 11: Click to 'Save' button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-10-15 22:49:40,872] 01_Add_New - Step 12: Back 'Employee List' 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-10-15 22:49:43,251] 01_Add_New - Step 13: Input valid info to 'Employee Name' textbox 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-10-15 22:49:49,520] 01_Add_New - Step 14: Click to 'Search' button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-10-15 22:49:51,525]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-10-15 22:49:51,536] 01_Add_New - Step 15: Verify Employee Info at Result Table
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-10-15 22:49:51,637]  -------------------------- FAILED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-10-15 22:49:51,734]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-10-15 22:49:51,828]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><a target="_blank" href="file:///D:\Selenium-WebDriver-Class22\04-Maven Hydrid Framework\ReportNGScreenShots\Employee_01_Add_New_Employees_15_10_2021_10_49_51.png"><img src="file:///D:\Selenium-WebDriver-Class22\04-Maven Hydrid Framework\ReportNGScreenShots\Employee_01_Add_New_Employees_15_10_2021_10_49_51.png" height='100' width='150'/> </a></br>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-10-15T15:49:18Z" name="Orange HRM" finished-at="2021-10-15T15:49:53Z" duration-ms="34264">
+    <groups>
+    </groups>
+    <test started-at="2021-10-15T15:49:18Z" name="Run On Chrome" finished-at="2021-10-15T15:49:53Z" duration-ms="34264">
+      <class name="com.hrm.employee.Level_16_Live_Coding">
+        <test-method is-config="true" signature="deleteAllFilesInReportNGScreenShot()[pri:0, instance:com.hrm.employee.Level_16_Live_Coding@2e23c180]" started-at="2021-10-15T15:49:18Z" name="deleteAllFilesInReportNGScreenShot" finished-at="2021-10-15T15:49:18Z" duration-ms="43" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2021-10-15 22:49:18,879] ---------- START delete file in folder ----------
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-10-15 22:49:18,882] ---------- END delete file in folder ----------
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteAllFilesInReportNGScreenShot -->
+        <test-method is-config="true" signature="initBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.hrm.employee.Level_16_Live_Coding@2e23c180]" started-at="2021-10-15T15:49:18Z" name="initBrowser" finished-at="2021-10-15T15:49:34Z" duration-ms="15992" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/index.php/dashboard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2021-10-15 22:49:18,914] Pre-condition - Step 01: Open browser  chrome with https://opensource-demo.orangehrmlive.com/index.php/dashboard 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-10-15 22:49:29,785] Pre-condition - Step 02: Login to HRM Admin
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method signature="Employee_01_Add_New_Employees()[pri:0, instance:com.hrm.employee.Level_16_Live_Coding@2e23c180]" started-at="2021-10-15T15:49:34Z" name="Employee_01_Add_New_Employees" finished-at="2021-10-15T15:49:51Z" duration-ms="16917" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [0261] but found [0260]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [0261] but found [0260]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:442)
+at commons.BaseTest.checkEquals(BaseTest.java:233)
+at commons.BaseTest.verifyEquals(BaseTest.java:245)
+at com.hrm.employee.Level_16_Live_Coding.Employee_01_Add_New_Employees(Level_16_Live_Coding.java:202)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2021-10-15 22:49:35,041] 01_Add_New - Step 01: Open 'Employee List' 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-10-15 22:49:37,987] 01_Add_New - Step 02: Click to 'Add' button 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-10-15 22:49:39,178] 01_Add_New - Step 03: Input valid info 'FirstName' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-10-15 22:49:39,423] 01_Add_New - Step 04: Input valid info 'LastName' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-10-15 22:49:39,645] 01_Add_New - Step 05: Get value of 'Employee ID'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-10-15 22:49:39,723] 01_Add_New - Step 06: Click to 'Create Login Details' checkbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-10-15 22:49:39,908] 01_Add_New - Step 07: Input valid info 'User Name'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-10-15 22:49:40,125] 01_Add_New - Step 08: Input valid info 'Password'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-10-15 22:49:40,355] 01_Add_New - Step 09: Input 'Confirm Password'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-10-15 22:49:40,570] 01_Add_New - Step 10: Select 'Enabled' at 'Status' dropdown
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-10-15 22:49:40,716] 01_Add_New - Step 11: Click to 'Save' button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-10-15 22:49:40,872] 01_Add_New - Step 12: Back 'Employee List' 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-10-15 22:49:43,251] 01_Add_New - Step 13: Input valid info to 'Employee Name' textbox 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-10-15 22:49:49,520] 01_Add_New - Step 14: Click to 'Search' button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-10-15 22:49:51,525]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-10-15 22:49:51,536] 01_Add_New - Step 15: Verify Employee Info at Result Table
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-10-15 22:49:51,637]  -------------------------- FAILED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-10-15 22:49:51,734]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-10-15 22:49:51,828]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><a target="_blank" href="file:///D:\Selenium-WebDriver-Class22\04-Maven Hydrid Framework\ReportNGScreenShots\Employee_01_Add_New_Employees_15_10_2021_10_49_51.png"><img src="file:///D:\Selenium-WebDriver-Class22\04-Maven Hydrid Framework\ReportNGScreenShots\Employee_01_Add_New_Employees_15_10_2021_10_49_51.png" height='100' width='150'/> </a></br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Employee_01_Add_New_Employees -->
+        <test-method is-config="true" signature="quiteBrowser()[pri:0, instance:com.hrm.employee.Level_16_Live_Coding@2e23c180]" started-at="2021-10-15T15:49:52Z" name="quiteBrowser" finished-at="2021-10-15T15:49:53Z" duration-ms="824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteBrowser -->
+      </class> <!-- com.hrm.employee.Level_16_Live_Coding -->
+    </test> <!-- Run On Chrome -->
+  </suite> <!-- Orange HRM -->
+</testng-results>
