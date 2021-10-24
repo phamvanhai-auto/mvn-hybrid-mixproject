@@ -170,19 +170,23 @@ public class BasePage {
 	}
 
 	public void clickToElement(WebDriver driver, String locator) {
+		hightlightElement(driver, locator);
 		getElement(driver, locator).click();
 	}
 
 	public void clickToElement(WebDriver driver, String locator, String... params) {
+		hightlightElement(driver, getDynamicLocator(locator, params));
 		getElement(driver, getDynamicLocator(locator, params)).click();
 	}
 
 	public void sendKeyToElement(WebDriver driver, String locator, String value) {
+		hightlightElement(driver, locator);
 		getElement(driver, locator).clear();
 		getElement(driver, locator).sendKeys(value);
 	}
 
 	public void sendKeyToElement(WebDriver driver, String locator, String value, String... params) {
+		hightlightElement(driver, getDynamicLocator(locator, params));
 		locator = getDynamicLocator(locator, params);
 		getElement(driver, locator).clear();
 		getElement(driver, locator).sendKeys(value);
@@ -401,11 +405,22 @@ public class BasePage {
 		jsExecutor.executeScript("window.location = '" + url + "'");
 	}
 
-	public void highlightElement(WebDriver driver, String locator) {
+	public void hightlightElement(WebDriver driver, String locator) {
 		jsExecutor = (JavascriptExecutor) driver;
 		WebElement element = getElement(driver, locator);
 		String originalStyle = element.getAttribute("style");
-		jsExecutor.executeScript("arguments[0].setAttribute(arguments[1], arguments[2])", element, "style", "border: 2px solid red; border-style: dashed;");
+		String hightlightStyle = "border: 3px solid red; border-style: dashed;";
+		jsExecutor.executeScript("arguments[0].setAttribute(arguments[1], arguments[2])", element, "style", hightlightStyle);
+		SleepInSecond(1);
+		jsExecutor.executeScript("arguments[0].setAttribute(arguments[1], arguments[2])", element, "style", originalStyle);
+	}
+	
+	public void hightlightElement(WebDriver driver, String locator, String... params) {
+		jsExecutor = (JavascriptExecutor) driver;
+		WebElement element = getElement(driver, getDynamicLocator(locator, params));
+		String originalStyle = element.getAttribute("style");
+		String hightlightStyle = "border: 3px solid red; border-style: dashed;";
+		jsExecutor.executeScript("arguments[0].setAttribute(arguments[1], arguments[2])", element, "style", hightlightStyle);
 		SleepInSecond(1);
 		jsExecutor.executeScript("arguments[0].setAttribute(arguments[1], arguments[2])", element, "style", originalStyle);
 	}

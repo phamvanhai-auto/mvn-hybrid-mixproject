@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite parallel="false" name="Bank Guru">
 
-  <test name="Run On Firefox">
-    <classes>
-<!--       <class name="com.bankguru.login.Level_01_Register_Login_RY"/> -->
-<!--       <class name="com.bankguru.login.Level_02_Register_Login_BasePage_1"/> -->
-<!--       <class name="com.bankguru.login.Level_02_Register_Login_BasePage_2"/> -->
-      <class name="com.bankguru.login.Level_02_Register_Login_BasePage_3"/>
-    </classes>
-  </test> <!-- Test -->
+  <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+        <listener class-name = "commons.MethodListener" />
+<!--         <listener class-name = "reportConfig.ExtentReportListenerV2" /> -->
+        <listener class-name = "reportConfig.ReportNGListener" />
+<!--         <listener class-name = "reportConfig.ExtentTestListener" /> -->
+<!--         <listener class-name = "reportConfig.AllureTestListener" /> -->
+  </listeners>
+
+	<test name="Run On Firefox">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.bankguru.payment.Level_21_Multi_Enviroment" />
+		</classes>
+	</test>
+
 </suite> <!-- Suite -->

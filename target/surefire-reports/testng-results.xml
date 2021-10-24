@@ -1,217 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[[INFO ] [2021-10-16 14:50:57,491] ---------- START delete file in folder ----------
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-10-16 14:50:57,499] ---------- END delete file in folder ----------
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-10-16 14:50:57,543] Pre-condition - Step 01: Open browser  chrome with https://opensource-demo.orangehrmlive.com/index.php/dashboard 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-10-16 14:51:10,167] Pre-condition - Step 02: Login to HRM Admin
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-10-16 14:51:16,190] 01_Add_New - Step 01: Open 'Employee List' 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-10-16 14:51:21,254] 01_Add_New - Step 02: Click to 'Add' button 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-10-16 14:51:22,337] 01_Add_New - Step 03: Input valid info 'FirstName' textbox
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-10-16 14:51:22,640] 01_Add_New - Step 04: Input valid info 'LastName' textbox
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-10-16 14:51:22,976] 01_Add_New - Step 05: Get value of 'Employee ID'
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-10-16 14:51:23,086] 01_Add_New - Step 06: Click to 'Create Login Details' checkbox
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-10-16 14:51:23,358] 01_Add_New - Step 07: Input valid info 'User Name'
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-10-16 14:51:23,632] 01_Add_New - Step 08: Input valid info 'Password'
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-10-16 14:51:23,972] 01_Add_New - Step 09: Input 'Confirm Password'
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-10-16 14:51:24,293] 01_Add_New - Step 10: Select 'Enabled' at 'Status' dropdown
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-10-16 14:51:24,485] 01_Add_New - Step 11: Click to 'Save' button
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-10-16 14:51:24,666] 01_Add_New - Step 12: Back 'Employee List' 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-10-16 14:51:28,107] 01_Add_New - Step 13: Input valid info to 'Employee Name' textbox 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-10-16 14:51:34,555] 01_Add_New - Step 14: Click to 'Search' button
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-10-16 14:51:36,779]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-10-16 14:51:36,795] 01_Add_New - Step 15: Verify Employee Info at Result Table
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-10-16 14:51:37,042]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-10-16 14:51:37,264]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
   </reporter-output>
-  <suite started-at="2021-10-16T07:50:57Z" name="Orange HRM" finished-at="2021-10-16T07:51:38Z" duration-ms="41314">
+  <suite started-at="2021-10-24T14:46:28Z" name="Bank Guru" finished-at="2021-10-24T14:46:45Z" duration-ms="16585">
     <groups>
     </groups>
-    <test started-at="2021-10-16T07:50:57Z" name="Run On Chrome" finished-at="2021-10-16T07:51:38Z" duration-ms="41314">
-      <class name="com.hrm.employee.Level_16_Live_Coding">
-        <test-method is-config="true" signature="deleteAllFilesInReportNGScreenShot()[pri:0, instance:com.hrm.employee.Level_16_Live_Coding@7186333e]" started-at="2021-10-16T07:50:57Z" name="deleteAllFilesInReportNGScreenShot" finished-at="2021-10-16T07:50:57Z" duration-ms="57" status="PASS">
+    <test started-at="2021-10-24T14:46:28Z" name="Run On Firefox" finished-at="2021-10-24T14:46:45Z" duration-ms="16585">
+      <class name="com.bankguru.payment.Level_21_Multi_Enviroment">
+        <test-method is-config="true" signature="deleteAllFilesInReportNGScreenShot()[pri:0, instance:com.bankguru.payment.Level_21_Multi_Enviroment@1f51431]" started-at="2021-10-24T14:46:28Z" name="deleteAllFilesInReportNGScreenShot" finished-at="2021-10-24T14:46:28Z" duration-ms="52" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[[INFO ] [2021-10-16 14:50:57,491] ---------- START delete file in folder ----------
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-10-16 14:50:57,499] ---------- END delete file in folder ----------
-<br>]]>
-            </line>
           </reporter-output>
         </test-method> <!-- deleteAllFilesInReportNGScreenShot -->
-        <test-method is-config="true" signature="initBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.hrm.employee.Level_16_Live_Coding@7186333e]" started-at="2021-10-16T07:50:57Z" name="initBrowser" finished-at="2021-10-16T07:51:15Z" duration-ms="18210" status="PASS">
+        <test-method is-config="true" signature="initBrowser(java.lang.String)[pri:0, instance:com.bankguru.payment.Level_21_Multi_Enviroment@1f51431]" started-at="2021-10-24T14:46:28Z" name="initBrowser" finished-at="2021-10-24T14:46:43Z" duration-ms="14570" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://opensource-demo.orangehrmlive.com/index.php/dashboard]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
           </params>
           <reporter-output>
-            <line>
-              <![CDATA[[INFO ] [2021-10-16 14:50:57,543] Pre-condition - Step 01: Open browser  chrome with https://opensource-demo.orangehrmlive.com/index.php/dashboard 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-10-16 14:51:10,167] Pre-condition - Step 02: Login to HRM Admin
-<br>]]>
-            </line>
           </reporter-output>
         </test-method> <!-- initBrowser -->
-        <test-method signature="Employee_01_Add_New_Employees()[pri:0, instance:com.hrm.employee.Level_16_Live_Coding@7186333e]" started-at="2021-10-16T07:51:15Z" name="Employee_01_Add_New_Employees" finished-at="2021-10-16T07:51:37Z" duration-ms="21511" status="PASS">
+        <test-method signature="Employee_01_Add_New_Employee()[pri:0, instance:com.bankguru.payment.Level_21_Multi_Enviroment@1f51431]" started-at="2021-10-24T14:46:43Z" name="Employee_01_Add_New_Employee" finished-at="2021-10-24T14:46:43Z" duration-ms="148" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[[INFO ] [2021-10-16 14:51:16,190] 01_Add_New - Step 01: Open 'Employee List' 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-10-16 14:51:21,254] 01_Add_New - Step 02: Click to 'Add' button 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-10-16 14:51:22,337] 01_Add_New - Step 03: Input valid info 'FirstName' textbox
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-10-16 14:51:22,640] 01_Add_New - Step 04: Input valid info 'LastName' textbox
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-10-16 14:51:22,976] 01_Add_New - Step 05: Get value of 'Employee ID'
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-10-16 14:51:23,086] 01_Add_New - Step 06: Click to 'Create Login Details' checkbox
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-10-16 14:51:23,358] 01_Add_New - Step 07: Input valid info 'User Name'
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-10-16 14:51:23,632] 01_Add_New - Step 08: Input valid info 'Password'
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-10-16 14:51:23,972] 01_Add_New - Step 09: Input 'Confirm Password'
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-10-16 14:51:24,293] 01_Add_New - Step 10: Select 'Enabled' at 'Status' dropdown
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-10-16 14:51:24,485] 01_Add_New - Step 11: Click to 'Save' button
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-10-16 14:51:24,666] 01_Add_New - Step 12: Back 'Employee List' 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-10-16 14:51:28,107] 01_Add_New - Step 13: Input valid info to 'Employee Name' textbox 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-10-16 14:51:34,555] 01_Add_New - Step 14: Click to 'Search' button
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-10-16 14:51:36,779]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-10-16 14:51:36,795] 01_Add_New - Step 15: Verify Employee Info at Result Table
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-10-16 14:51:37,042]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-10-16 14:51:37,264]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- Employee_01_Add_New_Employees -->
-        <test-method is-config="true" signature="quiteBrowser()[pri:0, instance:com.hrm.employee.Level_16_Live_Coding@7186333e]" started-at="2021-10-16T07:51:37Z" name="quiteBrowser" finished-at="2021-10-16T07:51:38Z" duration-ms="1148" status="PASS">
+        </test-method> <!-- Employee_01_Add_New_Employee -->
+        <test-method is-config="true" signature="quiteBrowser()[pri:0, instance:com.bankguru.payment.Level_21_Multi_Enviroment@1f51431]" started-at="2021-10-24T14:46:43Z" name="quiteBrowser" finished-at="2021-10-24T14:46:45Z" duration-ms="1432" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quiteBrowser -->
-      </class> <!-- com.hrm.employee.Level_16_Live_Coding -->
-    </test> <!-- Run On Chrome -->
-  </suite> <!-- Orange HRM -->
+      </class> <!-- com.bankguru.payment.Level_21_Multi_Enviroment -->
+    </test> <!-- Run On Firefox -->
+  </suite> <!-- Bank Guru -->
 </testng-results>

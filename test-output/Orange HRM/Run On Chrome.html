@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Run On Chrome</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Oct 15 22:49:18 ICT 2021</td>
+<td>Started on:</td><td>Tue Oct 19 23:33:51 ICT 2021</td>
 </tr>
-<tr><td>Total time:</td><td>34 seconds (34264 ms)</td>
+<tr><td>Total time:</td><td>82 seconds (82970 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,65 +76,43 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.hrm.employee.Level_16_Live_Coding.Employee_01_Add_New_Employees()'><b>Employee_01_Add_New_Employees</b><br>Test class: com.hrm.employee.Level_16_Live_Coding<br/>
-<a href="#Output-1345069688" onClick='toggleBox("Output-1345069688", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1117719720" onClick='toggleBox("Output-1117719720", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1345069688" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1345069688">
-[INFO ] [2021-10-15 22:49:35,041] 01_Add_New - Step 01: Open 'Employee List' 
+<a href="#Output-1117719720" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1117719720">
+[INFO ] [2021-10-19 23:34:17,002] 01_Add_New - Step 01: Open 'Employee List' 
 <br><br/>
-[INFO ] [2021-10-15 22:49:37,987] 01_Add_New - Step 02: Click to 'Add' button 
-<br><br/>
-[INFO ] [2021-10-15 22:49:39,178] 01_Add_New - Step 03: Input valid info 'FirstName' textbox
-<br><br/>
-[INFO ] [2021-10-15 22:49:39,423] 01_Add_New - Step 04: Input valid info 'LastName' textbox
-<br><br/>
-[INFO ] [2021-10-15 22:49:39,645] 01_Add_New - Step 05: Get value of 'Employee ID'
-<br><br/>
-[INFO ] [2021-10-15 22:49:39,723] 01_Add_New - Step 06: Click to 'Create Login Details' checkbox
-<br><br/>
-[INFO ] [2021-10-15 22:49:39,908] 01_Add_New - Step 07: Input valid info 'User Name'
-<br><br/>
-[INFO ] [2021-10-15 22:49:40,125] 01_Add_New - Step 08: Input valid info 'Password'
-<br><br/>
-[INFO ] [2021-10-15 22:49:40,355] 01_Add_New - Step 09: Input 'Confirm Password'
-<br><br/>
-[INFO ] [2021-10-15 22:49:40,570] 01_Add_New - Step 10: Select 'Enabled' at 'Status' dropdown
-<br><br/>
-[INFO ] [2021-10-15 22:49:40,716] 01_Add_New - Step 11: Click to 'Save' button
-<br><br/>
-[INFO ] [2021-10-15 22:49:40,872] 01_Add_New - Step 12: Back 'Employee List' 
-<br><br/>
-[INFO ] [2021-10-15 22:49:43,251] 01_Add_New - Step 13: Input valid info to 'Employee Name' textbox 
-<br><br/>
-[INFO ] [2021-10-15 22:49:49,520] 01_Add_New - Step 14: Click to 'Search' button
-<br><br/>
-[INFO ] [2021-10-15 22:49:51,525]  -------------------------- PASSED -------------------------- 
-<br><br/>
-[INFO ] [2021-10-15 22:49:51,536] 01_Add_New - Step 15: Verify Employee Info at Result Table
-<br><br/>
-[INFO ] [2021-10-15 22:49:51,637]  -------------------------- FAILED -------------------------- 
-<br><br/>
-[INFO ] [2021-10-15 22:49:51,734]  -------------------------- PASSED -------------------------- 
-<br><br/>
-[INFO ] [2021-10-15 22:49:51,828]  -------------------------- PASSED -------------------------- 
-<br><br/>
-<br><a target="_blank" href="file:///D:\Selenium-WebDriver-Class22\04-Maven Hydrid Framework\ReportNGScreenShots\Employee_01_Add_New_Employees_15_10_2021_10_49_51.png"><img src="file:///D:\Selenium-WebDriver-Class22\04-Maven Hydrid Framework\ReportNGScreenShots\Employee_01_Add_New_Employees_15_10_2021_10_49_51.png" height='100' width='150'/> </a></br><br/>
 </div>
 </td>
-<td><div><pre>java.lang.AssertionError: expected [0261] but found [0260]
-	at commons.BaseTest.checkEquals(BaseTest.java:233)
-	at commons.BaseTest.verifyEquals(BaseTest.java:245)
-	at com.hrm.employee.Level_16_Live_Coding.Employee_01_Add_New_Employees(Level_16_Live_Coding.java:202)
-... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1345069688", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1345069688'><pre>java.lang.AssertionError: expected [0261] but found [0260]
-	at org.testng.Assert.fail(Assert.java:96)
-	at org.testng.Assert.failNotEquals(Assert.java:776)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-	at org.testng.Assert.assertEquals(Assert.java:118)
-	at org.testng.Assert.assertEquals(Assert.java:442)
-	at commons.BaseTest.checkEquals(BaseTest.java:233)
-	at commons.BaseTest.verifyEquals(BaseTest.java:245)
-	at com.hrm.employee.Level_16_Live_Coding.Employee_01_Add_New_Employees(Level_16_Live_Coding.java:202)
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//div[@id=&apos;mainMenu&apos;]//a[string()=&apos;%s&apos;]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;PHAMVANHAI&apos;, ip: &apos;192.168.1.237&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at commons.BasePage.getElement(BasePage.java:156)
+	at commons.BasePage.hightlightElement(BasePage.java:410)
+	at commons.BasePage.clickToElement(BasePage.java:178)
+	at commons.BasePage.openSubMenuHeader(BasePage.java:636)
+	at com.hrm.employee.Level_16_Live_Coding.Employee_01_Add_New_Employees(Level_16_Live_Coding.java:148)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1117719720", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1117719720'><pre>org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//div[@id=&apos;mainMenu&apos;]//a[string()=&apos;%s&apos;]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;PHAMVANHAI&apos;, ip: &apos;192.168.1.237&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at commons.BasePage.getElement(BasePage.java:156)
+	at commons.BasePage.hightlightElement(BasePage.java:410)
+	at commons.BasePage.clickToElement(BasePage.java:178)
+	at commons.BasePage.openSubMenuHeader(BasePage.java:636)
+	at com.hrm.employee.Level_16_Live_Coding.Employee_01_Add_New_Employees(Level_16_Live_Coding.java:148)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -161,8 +139,75 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>16</td>
-<td>com.hrm.employee.Level_16_Live_Coding@2e23c180</td></tr>
+<td>32</td>
+<td>com.hrm.employee.Level_16_Live_Coding@25da615a</td></tr>
+<tr>
+<td title='com.hrm.employee.Level_16_Live_Coding.Employee_01_Add_New_Employees()'><b>Employee_01_Add_New_Employees</b><br>Test class: com.hrm.employee.Level_16_Live_Coding</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=94.0.4606.71)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;PHAMVANHAI&apos;, ip: &apos;192.168.1.237&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.71, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57010}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 46efadc065c5ee811906cec5f3345303
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at reportConfig.ReportNGListener.captureScreenshot(ReportNGListener.java:69)
+	at reportConfig.ReportNGListener.onTestFailure(ReportNGListener.java:49)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1160845977", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1160845977'><pre>org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=94.0.4606.71)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;PHAMVANHAI&apos;, ip: &apos;192.168.1.237&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.71, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57010}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 46efadc065c5ee811906cec5f3345303
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at reportConfig.ReportNGListener.captureScreenshot(ReportNGListener.java:69)
+	at reportConfig.ReportNGListener.onTestFailure(ReportNGListener.java:49)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:67)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1389)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:636)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>44</td>
+<td>com.hrm.employee.Level_16_Live_Coding@25da615a</td></tr>
 </table><p>
 </body>
 </html>

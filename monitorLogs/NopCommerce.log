@@ -1,0 +1,32 @@
+[INFO ] [2021-10-19 23:33:51,873] ---------- START delete file in folder ----------
+[INFO ] [2021-10-19 23:33:51,877] ---------- END delete file in folder ----------
+[INFO ] [2021-10-19 23:33:51,911] Pre-condition - Step 01: Open browser  chrome with https://opensource-demo.orangehrmlive.com/index.php/dashboard 
+[INFO ] [2021-10-19 23:34:07,068] Pre-condition - Step 02: Login to HRM Admin
+[INFO ] [2021-10-19 23:34:17,002] 01_Add_New - Step 01: Open 'Employee List' 
+[INFO ] [2021-10-19 23:42:44,887] ---------- START delete file in folder ----------
+[INFO ] [2021-10-19 23:42:44,892] ---------- END delete file in folder ----------
+[INFO ] [2021-10-19 23:42:44,923] Pre-condition - Step 01: Open browser  chrome with https://opensource-demo.orangehrmlive.com/index.php/dashboard 
+[INFO ] [2021-10-19 23:42:57,208] Pre-condition - Step 02: Login to HRM Admin
+[INFO ] [2021-10-19 23:43:06,906] 01_Add_New - Step 01: Open 'Employee List' 
+[INFO ] [2021-10-19 23:46:02,512] ---------- START delete file in folder ----------
+[INFO ] [2021-10-19 23:46:02,515] ---------- END delete file in folder ----------
+[INFO ] [2021-10-19 23:46:02,549] Pre-condition - Step 01: Open browser  chrome with https://opensource-demo.orangehrmlive.com/index.php/dashboard 
+[INFO ] [2021-10-19 23:46:13,143] Pre-condition - Step 02: Login to HRM Admin
+[INFO ] [2021-10-19 23:46:23,844] 01_Add_New - Step 01: Open 'Employee List' 
+[INFO ] [2021-10-19 23:46:30,479] 01_Add_New - Step 02: Click to 'Add' button 
+[INFO ] [2021-10-19 23:46:33,521] 01_Add_New - Step 03: Input valid info 'FirstName' textbox
+[INFO ] [2021-10-19 23:46:34,948] 01_Add_New - Step 04: Input valid info 'LastName' textbox
+[INFO ] [2021-10-19 23:46:36,358] 01_Add_New - Step 05: Get value of 'Employee ID'
+[INFO ] [2021-10-19 23:46:36,445] 01_Add_New - Step 06: Click to 'Create Login Details' checkbox
+[INFO ] [2021-10-19 23:46:36,665] 01_Add_New - Step 07: Input valid info 'User Name'
+[INFO ] [2021-10-19 23:46:38,064] 01_Add_New - Step 08: Input valid info 'Password'
+[INFO ] [2021-10-19 23:46:39,493] 01_Add_New - Step 09: Input 'Confirm Password'
+[INFO ] [2021-10-19 23:46:40,858] 01_Add_New - Step 10: Select 'Enabled' at 'Status' dropdown
+[INFO ] [2021-10-19 23:46:41,070] 01_Add_New - Step 11: Click to 'Save' button
+[INFO ] [2021-10-19 23:46:45,948] 01_Add_New - Step 12: Back 'Employee List' 
+[INFO ] [2021-10-19 23:46:51,176] 01_Add_New - Step 13: Input valid info to 'Employee Name' textbox 
+[INFO ] [2021-10-19 23:46:58,719] 01_Add_New - Step 14: Click to 'Search' button
+[INFO ] [2021-10-19 23:47:02,830]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-10-19 23:47:02,848] 01_Add_New - Step 15: Verify Employee Info at Result Table
+[INFO ] [2021-10-19 23:47:03,019]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-10-19 23:47:03,128]  -------------------------- PASSED -------------------------- 
